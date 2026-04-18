@@ -1,0 +1,23 @@
+[package]
+name = "maestro-tgbot"
+version = "0.0.1"
+edition = "2024"
+authors = ["Otabek"]
+description = "Minimal Telegram bot framework in Rust"
+license = "MIT"
+repository = "https://github.com/Famous-Coder36/maestro-tgbot"
+readme = "README.md"
+keywords = ["telegram", "bot", "maestro", "framework"]
+categories = ["api-bindings", "network-programming"]
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+
+[features]
+default = []
+full = ["tokio/full"]
+
+[lib]
+name = "maestro_tgbot"
+path = "src/lib.rs"
