@@ -5,7 +5,7 @@ use tokio::time::{sleep, Duration};
 #[tokio::main]
 async fn main() {
     
-    let _ = TelegramBot::init("8520493598:AAFYiGyG_-Lvl7DW5YrTomCKCLEFuZxgsw8");
+    let _ = TelegramBot::init("BOT_API_TOKEN");
 
     let mut offset = 0;
     let keyboard = serde_json::json!({
