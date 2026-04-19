@@ -1,4 +1,4 @@
-# maestro-tgbot v0.0.1
+# maestro-tgbot v0.0.2
 
 Maestro-TgBot is a minimal Telegram Bot wrapper written in Rust.
 
